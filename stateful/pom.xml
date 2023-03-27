@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.example</groupId>
-	<artifactId>spring-boot-complete</artifactId>
+	<artifactId>spring-boot-stateful</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>spring-boot-complete</name>
+	<name>spring-boot-stateful</name>
 	<description>Demo project for Spring Boot</description>
 
 	<properties>

@@ -1,7 +1,7 @@
 #!/bin/sh
 cd $(dirname $0)
 
-cd ../complete
+cd ../stateful
 
 ./mvnw clean package
 ret=$?
@@ -17,7 +17,7 @@ exit $ret
 fi
 rm -rf build
 
-cd ../initial
+cd ../stateless
 
 ./mvnw clean compile
 ret=$?
